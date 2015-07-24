@@ -10,6 +10,6 @@ In Git, web pages can be added to a respository by creating a branch called `gh-
 
 1. Create an empty branch `gh-pages` in the repo on Github.
 2. Rename the HTML directory if it has the same name as the Git repo.  For example, if the repo name is `DSMS`, rename the web page directory `dsms`.
-3. ```$ git clone --origin jplra --branch gh-pages --single-branch https://github.jpl.nasa.gov/RadioAstronomy/DSMS.git```
+3. ```$ git clone --origin jplra --branch gh-pages --single-branch \ https://github.jpl.nasa.gov/RadioAstronomy/DSMS.git```
 4. ```cd DSMS```
 5. ```DSMS $ mv ../dsms/* .```
