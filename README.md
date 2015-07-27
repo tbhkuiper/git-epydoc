@@ -22,7 +22,7 @@ In Git, web pages can be added to a respository by creating a branch called `gh-
 
 1. Click on the Settings button of your repo's page on Github.
 2. In the Github Pages section, click on Automatic Generator.
-3. Edit the text in the Body section to describe your repo.
+3. Edit the text in the Body section to describe your repo.  This will be turned into HTML source for `index.html`.
 4. Click "Continue to Layouts" and select one.
 5. Click on "Publish Page".
 6. Go to `/var/www/html/software/Python/DSN-Sci-packages` and clone only the `gh-pages` branch. (See 3 above.)
