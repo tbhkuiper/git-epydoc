@@ -13,10 +13,17 @@ In Git, web pages can be added to a respository by creating a branch called `gh-
 3. ```$ git clone --origin jplra --branch gh-pages --single-branch \ https://github.jpl.nasa.gov/RadioAstronomy/DSMS.git```
 4. ```cd DSMS```
 5. ```DSMS $ mv ../dsms/* .```
-6. As the final step, remove anything that came in with the ```clone``` that you don't want.
+6. Remove anything that came in with the ```clone``` that you don't want.
+7. Commit the changes and push them to Github.  The web pages can now be viewed at, using the above example, point your browser at `https://github.jpl.nasa.gov/pages/RadioAstronomy/DSMS/`.
 
 ### Planning Ahead
 
 #### Let Github Do It
 
-Click on the Settings button of your repo's page on Github.  In the Github Pages section, click on Automatic Generator
+1. Click on the Settings button of your repo's page on Github.
+2. In the Github Pages section, click on Automatic Generator.
+3. Edit the text in the Body section to describe your repo.
+4. Click "Continue to Layouts" and select one.
+5. Click on "Publish Page".
+6. Go to `/var/www/html/software/Python/DSN-Sci-packages` and clone only the `gh-pages` branch. (See 3 above.)
+7. Now you can run `PyDoc` to add the source code documentation.
