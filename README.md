@@ -13,3 +13,10 @@ In Git, web pages can be added to a respository by creating a branch called `gh-
 3. ```$ git clone --origin jplra --branch gh-pages --single-branch \ https://github.jpl.nasa.gov/RadioAstronomy/DSMS.git```
 4. ```cd DSMS```
 5. ```DSMS $ mv ../dsms/* .```
+6. As the final step, remove anything that came in with the ```clone``` that you don't want.
+
+### Planning Ahead
+
+#### Let Github Do It
+
+Click on the Settings button of your repo's page on Github.  In the Github Pages section, click on Automatic Generator
